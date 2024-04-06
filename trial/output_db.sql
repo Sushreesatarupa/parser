@@ -1,0 +1,8 @@
+INSERT INTO tableName ("_declaration._attributes.version", "1.0") VALUES ('"_declaration._attributes.encoding"', '"UTF-8"')
+INSERT INTO tableName ("_declaration._attributes.version", "1.0") VALUES ('"SOAP-ENV:Envelope._attributes.xmlns:SOAP-ENV"', '"http://www.w3.org/2003/05/soap-envelope"')
+INSERT INTO tableName ("_declaration._attributes.version", "1.0") VALUES ('"SOAP-ENV:Envelope.SOAP-ENV:Body.ns0:Reversal._attributes.xmlns:ns0"', '"http://www.kotak.com/schemas/CMS_Generic/Reversal_Response.xsd"')
+INSERT INTO tableName ("_declaration._attributes.version", "1.0") VALUES ('"SOAP-ENV:Envelope.SOAP-ENV:Body.ns0:Reversal.ns0:Header.ns0:Req_Id._text"', '"202404011530"')
+INSERT INTO tableName ("_declaration._attributes.version", "1.0") VALUES ('"SOAP-ENV:Envelope.SOAP-ENV:Body.ns0:Reversal.ns0:Header.ns0:Msg_Src._text"', '"DMIUTRREVERSAL"')
+INSERT INTO tableName ("_declaration._attributes.version", "1.0") VALUES ('"SOAP-ENV:Envelope.SOAP-ENV:Body.ns0:Reversal.ns0:Header.ns0:Client_Code._text"', '"DMIFIN"')
+INSERT INTO tableName ("_declaration._attributes.version", "1.0") VALUES ('"SOAP-ENV:Envelope.SOAP-ENV:Body.ns0:Reversal.ns0:Header.ns0:Date_Post._text"', '"2024-04-01+05:30"')
+INSERT INTO tableName ("_declaration._attributes.version", "1.0") VALUES ('"SOAP-ENV:Envelope.SOAP-ENV:Body.ns0:Reversal.ns0:Details.ns0:Rev_Detail"', '"[object Object]', '[object Object]', '[object Object]', '[object Object]', '[object Object]"')

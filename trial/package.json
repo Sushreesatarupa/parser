@@ -1,0 +1,16 @@
+{
+  "name": "parserapi",
+  "version": "1.0.0",
+  "description": "api for parser",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "sushree",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "xml-js": "^1.6.11"
+  }
+}

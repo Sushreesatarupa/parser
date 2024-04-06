@@ -1,0 +1,123 @@
+{
+    "_declaration": {
+        "_attributes": {
+            "version": "1.0",
+            "encoding": "UTF-8"
+        }
+    },
+    "SOAP-ENV:Envelope": {
+        "_attributes": {
+            "xmlns:SOAP-ENV": "http://www.w3.org/2003/05/soap-envelope"
+        },
+        "SOAP-ENV:Body": {
+            "ns0:Reversal": {
+                "_attributes": {
+                    "xmlns:ns0": "http://www.kotak.com/schemas/CMS_Generic/Reversal_Response.xsd"
+                },
+                "ns0:Header": {
+                    "ns0:Req_Id": {
+                        "_text": "202404011530"
+                    },
+                    "ns0:Msg_Src": {
+                        "_text": "DMIUTRREVERSAL"
+                    },
+                    "ns0:Client_Code": {
+                        "_text": "DMIFIN"
+                    },
+                    "ns0:Date_Post": {
+                        "_text": "2024-04-01+05:30"
+                    }
+                },
+                "ns0:Details": {
+                    "ns0:Rev_Detail": [
+                        {
+                            "ns0:Msg_Id": {
+                                "_text": "202404012404"
+                            },
+                            "ns0:Status_Code": {
+                                "_text": "U"
+                            },
+                            "ns0:Status_Desc": {
+                                "_text": "Processed"
+                            },
+                            "ns0:InstRefNo": {
+                                "_text": "a1FOS0000054niU2AQ"
+                            },
+                            "ns0:UTR": {
+                                "_text": "FCM-2404019H7CN8"
+                            }
+                        },
+                        {
+                            "ns0:Msg_Id": {
+                                "_text": "202404012404"
+                            },
+                            "ns0:Status_Code": {
+                                "_text": "U"
+                            },
+                            "ns0:Status_Desc": {
+                                "_text": "Processed"
+                            },
+                            "ns0:InstRefNo": {
+                                "_text": "a1FOS0000054q0P2AQ"
+                            },
+                            "ns0:UTR": {
+                                "_text": "FCM-2404019H7CN7"
+                            }
+                        },
+                        {
+                            "ns0:Msg_Id": {
+                                "_text": "202404012404"
+                            },
+                            "ns0:Status_Code": {
+                                "_text": "U"
+                            },
+                            "ns0:Status_Desc": {
+                                "_text": "Processed"
+                            },
+                            "ns0:InstRefNo": {
+                                "_text": "a1FOS0000054qgK2AQ"
+                            },
+                            "ns0:UTR": {
+                                "_text": "FCM-2404019H7CN6"
+                            }
+                        },
+                        {
+                            "ns0:Msg_Id": {
+                                "_text": "202404012404"
+                            },
+                            "ns0:Status_Code": {
+                                "_text": "U"
+                            },
+                            "ns0:Status_Desc": {
+                                "_text": "Processed"
+                            },
+                            "ns0:InstRefNo": {
+                                "_text": "a1FOS0000054t6N2AQ"
+                            },
+                            "ns0:UTR": {
+                                "_text": "FCM-2404019H7CN9"
+                            }
+                        },
+                        {
+                            "ns0:Msg_Id": {
+                                "_text": "202404012404"
+                            },
+                            "ns0:Status_Code": {
+                                "_text": "U"
+                            },
+                            "ns0:Status_Desc": {
+                                "_text": "Processed"
+                            },
+                            "ns0:InstRefNo": {
+                                "_text": "a1FOS0000054tBD2AY"
+                            },
+                            "ns0:UTR": {
+                                "_text": "FCM-2404019H7CN5"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,4 +1,4 @@
-## XML to JSON File Conversion:
+## 1) XML to JSON File Conversion:
 
 Purpose: Convert XML data to JSON format for easier processing and manipulation.
 
@@ -11,7 +11,7 @@ b) Convert the parsed XML data into JSON format.
 c) Save the JSON data into a new JSON file.
 
 
-## JSON File to Flattened Data:
+## 2) JSON File to Flattened Data:
 
 Purpose: Flatten hierarchical JSON data into a tabular format for easier analysis and storage.
 
@@ -24,7 +24,7 @@ b) Flatten the JSON object into a tabular structure, removing nested levels.
 c) Store the flattened data in a suitable data structure like a list or array.
 
 
-## Flattened Data to .SQL File:
+## 3) Flattened Data to .SQL File:
 
 Purpose: Generate SQL statements based on the flattened data for database creation.
 
@@ -37,7 +37,7 @@ b) Generate SQL statements (e.g., CREATE TABLE) using the schema and flattened d
 c) Save the SQL statements into a .sql file for database creation.
 
 
-## Flattened Data to Metadata:
+## 4) Flattened Data to Metadata:
 
 Purpose: Extract metadata information from the flattened data for configuration and documentation.
 
@@ -50,7 +50,7 @@ b) Generate metadata describing the data structure, including data types, field 
 c) Save the metadata information in a structured format, such as JSON or XML, for future reference.
 
 
-## .SQL File to Database Creation:
+## 5) .SQL File to Database Creation:
 
 Purpose: Execute SQL statements from the .sql file to create the database structure.
 

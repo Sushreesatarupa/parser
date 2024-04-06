@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-image: url('/DMIImg.jpg');
+            background-size: 50% auto; /* Reduce the background image size to 50% of its original size */
+            background-repeat: no-repeat; /* Prevent background image from repeating */
+            background-position: center center; /* Center the background image */
+            height: 135vh; /* Set the height of the body to 100% of the viewport height */
+        }
+        form {
+            margin: auto;
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            position: relative;
+            z-index: 1;
+            background-color: rgba(255, 255, 255, 0.7); /* Add some transparency to make the form more visible */
+        }
+        input[type="file"],
+        input[type="submit"] {
+            width: calc(100% - 30px);
+            padding: 10px;
+            margin: 5px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .remove-icon {
+            width: 20px;
+            height: 20px;
+            background-image: url('https://icons.getbootstrap.com/icons/x/');
+            background-size: cover;
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 5px;
+            display: none;
+        }
+        input[type="file"]:focus + .remove-icon,
+        input[type="file"]:valid + .remove-icon {
+            display: block;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            font-size: 18px; /* Adjust font size */
+            font-weight: bold; /* Make it bold */
+            text-transform: uppercase; /* Convert to uppercase */
+            letter-spacing: 1px; /* Add some letter spacing */
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .upload-success {
+            display: none; /* Initially hide the success card */
+            margin-top: 20px; /* Add some space between the form and success message */
+        }
+        .upload-success.show {
+            display: block; /* Show the success card when the correct format file is uploaded */
+        }
+    </style>
+</head>
+<body>
+    <h2 class="text-center" style="font-family: 'Arial Black', sans-serif; color: #333; font-size: 28px;">File Upload</h2>
+    <form id="uploadForm" class="col-md-7"  method="post" enctype="multipart/form-data" onsubmit="return validateForm()">
+        <input type="file" id="file" name="file" required onchange="showRemoveIcon()">
+        <span class="oi oi-cross remove-icon" onclick="removeFile()" id="removeIcon"></span>
+        <input type="submit" value="Upload">
+    </form>
+
+     <!-- Uploaded Successfully Card -->
+     <div class="card upload-success" id="successCard">
+        <div class="card-body">
+            <h5 class="card-title">File Uploaded Successfully</h5>
+            <p class="card-text">Your JSON file has been uploaded successfully.</p>
+        </div>
+    </div>
+    <script>
+        function validateForm() {
+            var fileInput = document.getElementById('file');
+            var filePath = fileInput.value;
+            var allowedExtensions = /(\.json)$/i; // Allow only

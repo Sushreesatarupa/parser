@@ -19,7 +19,9 @@ app.listen(port, () => {
 });
 
 const processCSV = (data, metadata) => {
-  console.log(`data ${data}`);
+  console.log("data");
   console.log(`metadata ${metadata}`);
   return "hello world";
 };
+
+

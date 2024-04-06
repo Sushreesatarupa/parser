@@ -9,6 +9,9 @@
   "author": "sushree",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
-  }
+    "express": "^4.19.2",
+    "jsonfile": "^6.1.0",
+    "xml-js": "^1.6.11"
+  },
+  "type": "module"
 }

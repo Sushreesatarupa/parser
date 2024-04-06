@@ -1,0 +1,28 @@
+{
+    "name": "Megha",
+    "age": 10,
+    "isWorking": true,
+    "friends" : [{
+                  "name" : "Priya",
+                  "company" : {
+                                 "class" : 1,
+                                 "sec" : "a"
+                  }
+                },
+                {
+                    "name" : "Shree",
+                    "company" : {
+                        "class" : 1,
+                        "sec" : "a"
+         }
+                  },
+                  {
+                    "name" : "Sushma",
+                    "company" : {
+                        "class" : 1,
+                        "sec" : "a"
+         }
+                  }]
+
+}
+

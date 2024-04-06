@@ -1,6 +1,6 @@
-const fs = require('fs');
-const path = require('path');
-const convert = require('xml-js');
+import fs from 'fs';
+import path from 'path';
+import convert from 'xml-js';
 
 function convertXmlToJson(xmlFileName) {
     // Construct file paths

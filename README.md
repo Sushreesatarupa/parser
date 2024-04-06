@@ -1,3 +1,11 @@
+![image](https://github.com/Sushreesatarupa/parser/assets/64991656/a44979b4-5c0f-4ed3-8e3e-d4d1cf423c7f)
+![image](https://github.com/Sushreesatarupa/parser/assets/64991656/31c69edb-c515-4a02-be57-76a2616c436a)
+
+
+## APIs:
+### /process-json - for json inputs
+### /process-xml - for xml inputs
+
 ## Script Purpose:
 The script processes input data in JSON or XML format, converts it to a flattened JSON structure, generates CSV and SQL data from the flattened JSON, and creates SQL statements for database insertion.
 

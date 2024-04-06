@@ -1,0 +1,115 @@
+{
+    "_declaration": {
+        "_attributes": {
+            "version": "1.0",
+            "encoding": "UTF-8"
+        }
+    },
+    "response": {
+        "faml": {
+            "_attributes": {
+                "Id": "xXQYyWsi3zX6kU7Qv55Doce92re4mIsr"
+            },
+            "header": {
+                "extsysname": {
+                    "_text": "COAPI"
+                },
+                "datpost": {
+                    "_text": "2024-04-02"
+                },
+                "batchnumext": {
+                    "_text": "3"
+                },
+                "idtxn": {
+                    "_text": "CO_NEI"
+                },
+                "iduser": {
+                    "_text": "APIUSER"
+                },
+                "idcust": {
+                    "_text": "177907063"
+                },
+                "groupid": {
+                    "_text": "DMIFPLTDCX"
+                },
+                "inqcount": {
+                    "_text": "4522"
+                },
+                "reqdatetime": {
+                    "_text": "2024-04-02T11:18:49"
+                },
+                "codstatus": {
+                    "_text": "0"
+                },
+                "txtstatus": {
+                    "_text": "SUCCESS"
+                },
+                "resdatetime": {
+                    "_text": "2024-04-02T11:18:49"
+                }
+            },
+            "inqlist": {
+                "payment": {
+                    "paymentrefno": {
+                        "_text": "0045399182"
+                    },
+                    "dattxn": {
+                        "_text": "2024-04-01"
+                    },
+                    "referenceno": {
+                        "_text": "N093242963672914"
+                    },
+                    "codstatus": {
+                        "_text": "P"
+                    },
+                    "txtreason": {
+                        "_text": "Executed"
+                    }
+                }
+            }
+        },
+        "Signature": {
+            "_attributes": {
+                "xmlns": "http://www.w3.org/2000/09/xmldsig#"
+            },
+            "SignedInfo": {
+                "CanonicalizationMethod": {
+                    "_attributes": {
+                        "Algorithm": "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+                    }
+                },
+                "SignatureMethod": {
+                    "_attributes": {
+                        "Algorithm": "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"
+                    }
+                },
+                "Reference": {
+                    "_attributes": {
+                        "URI": "#xXQYyWsi3zX6kU7Qv55Doce92re4mIsr"
+                    },
+                    "DigestMethod": {
+                        "_attributes": {
+                            "Algorithm": "http://www.w3.org/2001/04/xmlenc#sha256"
+                        }
+                    },
+                    "DigestValue": {
+                        "_text": "CvEdpHB20pzSD1tSbtyRfTURd3w5rls2KpMOnornQBo="
+                    }
+                }
+            },
+            "SignatureValue": {
+                "_text": "bZgEPAUwGQK+1Vk6T04jmzk+dN3WfD6YokKTJawm8ljCf4+fRuEZxENNQ7Vn2ObX98PROSHebsD8\r\nPTxYI+AwE2/DlKYpibF1hTb7bQHv4iKvn1GWsroj+byVbfBcNdRtkTWkovIWp8+7iGTEcbAmPMiG\r\ncLPpIlANpy3fO51cMBR0GGL10VSyxCKy4n0tbVX02bjr8fprNdEOOX1+2hm0vgHAZ9Z5rmrKdUGD\r\n9XZGm6t40U3MfhsiKT1Bk/xBDVx7qBVd8PyeT27FqJFw0HR4Fz+Xi2gcoenDHoqa6eCxQzfOix66\r\nkZIiEYXUmRjGhtn55ZHEJ07HXX5SgG0WfebZvQ=="
+            },
+            "KeyInfo": {
+                "X509Data": {
+                    "X509SubjectName": {
+                        "_text": "CN=api.hdfcbank.com,O=Hdfc Bank Limited,L=Mumbai,ST=Maharashtra,C=IN,2.5.4.5=#1306303830363138,2.5.4.15=#0c1450726976617465204f7267616e697a6174696f6e,1.3.6.1.4.1.311.60.2.1.3=#1302494e"
+                    },
+                    "X509Certificate": {
+                        "_text": "MIIG2DCCBcCgAwIBAgIQDYlipXEDIYJn8Dknt3u68TANBgkqhkiG9w0BAQsFADBhMQswCQYDVQQG\r\nEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSAw\r\nHgYDVQQDExdHZW9UcnVzdCBFViBSU0EgQ0EgMjAxODAeFw0yMzAzMTYwMDAwMDBaFw0yNDA0MTIy\r\nMzU5NTlaMIGwMRMwEQYLKwYBBAGCNzwCAQMTAklOMR0wGwYDVQQPDBRQcml2YXRlIE9yZ2FuaXph\r\ndGlvbjEPMA0GA1UEBRMGMDgwNjE4MQswCQYDVQQGEwJJTjEUMBIGA1UECBMLTWFoYXJhc2h0cmEx\r\nDzANBgNVBAcTBk11bWJhaTEaMBgGA1UEChMRSGRmYyBCYW5rIExpbWl0ZWQxGTAXBgNVBAMTEGFw\r\naS5oZGZjYmFuay5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCzCuKu4+TK/yUo\r\nwyvxwAWH4SkkEWZ3NeqdbIe7VualhcnMhkBaB9EsU58rDohgQXpaKEDzIglTmmy20j9AN2VCNd+g\r\n1aDWcD7kYyTAaZx4QWxkNYcAPlCUx2HxYreCTTtaznJG1JQyJ5Jb4kJ/SZezUdT/opMUwmXEARHP\r\nj6nYjwVCgqC5yJxFHJ9bTjS/JkR+B1ubi9It1+x3MhwsVtmzLsI3RkIKdyWfoFzmFsUt/WRQDCIP\r\ndNranUMDsy4ZgdwAuzxbdvSCEDmUPcVZg9eOY2kUPqB02470er05XIVn9OYI7DqNafs4cZ01RNWV\r\nxBWXHv5XnZLhApZYMuEz56wpAgMBAAGjggM6MIIDNjAfBgNVHSMEGDAWgBTKkmdSYd6u/LoiK38c\r\nh0wl+2+ZWDAdBgNVHQ4EFgQUNXCmfUgJYOZRlNyG2vXJ1S16HakwMQYDVR0RBCowKIIQYXBpLmhk\r\nZmNiYW5rLmNvbYIUd3d3LmFwaS5oZGZjYmFuay5jb20wDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQW\r\nMBQGCCsGAQUFBwMBBggrBgEFBQcDAjBABgNVHR8EOTA3MDWgM6Axhi9odHRwOi8vY2RwLmdlb3Ry\r\ndXN0LmNvbS9HZW9UcnVzdEVWUlNBQ0EyMDE4LmNybDBKBgNVHSAEQzBBMAsGCWCGSAGG/WwCATAy\r\nBgVngQwBATApMCcGCCsGAQUFBwIBFhtodHRwOi8vd3d3LmRpZ2ljZXJ0LmNvbS9DUFMwdwYIKwYB\r\nBQUHAQEEazBpMCYGCCsGAQUFBzABhhpodHRwOi8vc3RhdHVzLmdlb3RydXN0LmNvbTA/BggrBgEF\r\nBQcwAoYzaHR0cDovL2NhY2VydHMuZ2VvdHJ1c3QuY29tL0dlb1RydXN0RVZSU0FDQTIwMTguY3J0\r\nMAkGA1UdEwQCMAAwggF+BgorBgEEAdZ5AgQCBIIBbgSCAWoBaAB2AO7N0GTV2xrOxVy3nbTNE6Iy\r\nh0Z8vOzew1FIWUZxH7WbAAABhuoCR8QAAAQDAEcwRQIgTboE+zlGzXlnmNa638anIXO63aF8Bhkx\r\nXhshvwHq8uYCIQC0VzhNNXWyj0e40J5d7NOiDeuBZXgEkSyRYAOQ+m/2ZwB3AHPZnokbTJZ4oCB9\r\nR53mssYc0FFecRkqjGuAEHrBd3K1AAABhuoCSCgAAAQDAEgwRgIhAMA2sx0mElZu+f//10uqJjNk\r\nCyA55s3NMnr3Ien1NqylAiEA5h9u0f2n/kvvYjXYN6Ak1uvygZKt04n69WDVWxo8aEEAdQBIsONr\r\n2qZHNA/lagL6nTDrHFIBy1bdLIHZu7+rOdiEcwAAAYbqAkf2AAAEAwBGMEQCIBUWYYvt22rozIbE\r\nVxHWkI/3bJwovPcxSRdW4eBcqHDsAiADXJyAuIUtQm1csX/gKmd/rKZp6FqB3SSvD01ffuUPVTAN\r\nBgkqhkiG9w0BAQsFAAOCAQEAXTlwe0go0lWGpceC9L89HsbU/Hwaei9I5WQ4/JOtheZ2IXQFIVMU\r\nyUI9AN56VBdpadiL/jnhXizDa+ePvbvb9QqCWOpVih+v+jkHuZDdHLiqp3hq0REYSPrGqtkpsaZe\r\nS0Ni06leMuaj+Tn2Z6IRO5VlLTQ1SmKHeyUwCiwKXVtrCvRHOTtnvLp+/BRKo4TwbrbRQZp53pmg\r\nXyqIiwzoBVJZYe/ZoMF2Umv+wyXpESwU1amGWYJ3OHLzDbdvbLR9/4T3nJrtxDH9vDXOzBDsLqng\r\nwXhm7NhOBUMEYPuTKMeEQzbV5Cf67Y+ilWZ064DZEXJ24Wh/PZtaBdO+0WTzHw=="
+                    }
+                }
+            }
+        }
+    }
+}
